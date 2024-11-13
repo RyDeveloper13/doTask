@@ -1,0 +1,15 @@
+{
+  "name": "30-https-basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riley",
+  "license": "ISC",
+  "description": "Learning Server Side",
+  "dependencies": {
+    "express": "4.21.1"
+  }
+}
