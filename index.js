@@ -5,7 +5,7 @@ const { message } = require("statuses");
 //Setup Exrpess
 const app = express();
 
-const PORT = process.env.PORT || 3459
+const PORT = process.env.PORT || 3458
 
 function doWork (task)
 {
@@ -31,5 +31,5 @@ app.get("/", (req, res) => res.send("This is the default"));
 
 console.log(doWork('Learning express'));
 
-console.log(PORT, () => `Server is listening ${PORT}`);
+app.listen(PORT, () => console.log(`Server is listening ${PORT}`));
 
