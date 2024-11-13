@@ -31,5 +31,5 @@ app.get("/", (req, res) => res.send("This is the default"));
 
 console.log(doWork('Learning express'));
 
-app.listen(PORT, () => `Server is listening ${PORT}`);
+console.log(PORT, () => `Server is listening ${PORT}`);
 
